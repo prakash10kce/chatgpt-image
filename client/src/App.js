@@ -17,7 +17,6 @@ function App() {
   const handleChange = (e) => {
     setPrompt(e.target.value);
   };
-
   return (
     <div className="container-fluid">
       <div className="form">
