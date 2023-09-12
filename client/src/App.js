@@ -8,7 +8,7 @@ function App() {
   const [imageURL, setImage] = useState("");
 
   const createImg = async () => {
-    const response = await axios.post("http://localhost:8080/create", {
+    const response = await axios.post("https://chatgpt-image.onrender.com/create", {
       prompt,
     });
     setImage(response.data);
