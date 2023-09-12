@@ -1,10 +1,10 @@
 {
-  "name": "chatgpt-image",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "server": "nodemon server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
